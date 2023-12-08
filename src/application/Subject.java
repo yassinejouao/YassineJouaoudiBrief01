@@ -38,16 +38,4 @@ class Subject implements ISubject {
 
         return total / notes.size();
     }
-//    public double calculateMoyenNote() {
-//        if (notes.isEmpty()) {
-//            return 0.0;
-//        }
-//
-//        double total = 0.0;
-//        for (int note : notes) {
-//            total += note;
-//        }
-//
-//        return total / notes.size();
-//    }
 }

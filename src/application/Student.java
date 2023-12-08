@@ -36,19 +36,4 @@ public class Student implements IStudent {
         return total;
     }
     
-    
-//    public double calculateMoyenNoteOfSubject(String SubjectName) {
-//        if (subjects.isEmpty()) {
-//            return 0.0;
-//        }
-//        double total = 0.0;
-//        for (Subject subject : subjects) {
-//        	if(subject.getName().equals(SubjectName)) {
-//        		total += subject.calculateMoyenNote();
-//        	}
-//            
-//        }
-//
-//        return total / subjects.size();
-//    }
 }

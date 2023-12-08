@@ -44,7 +44,10 @@ public class StudentManager implements IStudentManager  {
             		System.out.println("Notes :");
             		for(int j = 0;j < student.getSubjects().get(i).getNotes().size();j++)
             		{
-            			System.out.print(student.getSubjects().get(i).getNotes().get(j)+"| \n");
+            			System.out.print(student.getSubjects().get(i).getNotes().get(j)+"| ");
+            			if(j==student.getSubjects().get(i).getNotes().size()-1) {
+            				System.out.print("\n");
+            			}
             		}
             	}
             }
