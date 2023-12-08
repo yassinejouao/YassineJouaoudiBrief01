@@ -1,37 +1,18 @@
-# YassineJouaoudiBrief01
-# Usage
-1 - add Student
-
-# Description
+# 1 - add Student
 This command allows the user to add a new student to the system.
 
-# Usage
-2 - add Subject to Student
-
-# Description
+# 2 - add Subject to Student
 Associates a subject with a specific student.
 
-# Usage
-3 - display Subject by Student
-
-# Description
+# 3 - display Subject by Student
 Displays the subjects associated with a particular student.
 
-# Usage
-4 - add Note to Subject
-
-# Description
+# 4 - add Note to Subject
 Adds a note to a specific subject for a given student.
 
-# Usage
-5 - calculate Average for specific subject
+# 5 - calculate Average for specific subject
+Calculates the average for a specific subject.
 
-# Description
-Calculates the average for a specific subject across all students.
-
-# Usage
-10 - display all Students
-
-# Description
+# 10 - display all Students
 Displays information for all students in the system.
 
